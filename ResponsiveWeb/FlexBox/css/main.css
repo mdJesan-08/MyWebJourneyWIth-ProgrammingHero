@@ -1,0 +1,46 @@
+@import 'variables.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#parent
+{
+    height: 100%;
+    width: 100%;
+    background-color:#111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#child1
+{
+    height: var(--child-height);
+    width: var(--child-width);
+    background-color: aqua;
+    margin: 10px;
+}
+
+#child2
+{
+    height: var(--child-height);
+    width: var(--child-width);
+    background-color: coral;
+    margin: 10px;
+}
+
+#child3
+{
+    height: var(--child-height);
+    width: var(--child-width);
+    background-color: crimson;
+    margin: 10px;
+}
