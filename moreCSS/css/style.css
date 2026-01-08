@@ -1,0 +1,26 @@
+*{
+ margin : 0;
+ padding : 0;   
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.parent{
+    --my-width: 100vw;
+    --my-height : 25vh;
+    width: var(--my-width);
+    height: var(--my-height);
+    color: royalblue;
+    background-color: #111;
+    font-size: 100px;
+  
+}
+
+.child{
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    font-size: .5em;
+
+}

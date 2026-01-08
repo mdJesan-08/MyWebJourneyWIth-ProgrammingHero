@@ -1,0 +1,35 @@
+:root {
+    --child-width: 200px;
+    --child-height: 200px;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#parent {
+    background-color: bisque;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#child1 {
+    background-color: aquamarine;
+    width: var(--child-width);
+    height: var(--child-height);
+}
+
+#child2 {
+    background-color: black;
+    width: var(--child-width);
+    height: var(--child-height);
+}
+
+#child3 {
+    background-color: crimson;
+    width: var(--child-width);
+    height: var(--child-height);
+}

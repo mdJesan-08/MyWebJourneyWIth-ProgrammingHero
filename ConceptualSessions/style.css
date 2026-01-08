@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 10;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.link-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+}
+.link-parent li{
+    text-decoration: none;
+}
+ul a{
+    text-decoration: none;
+}

@@ -1,0 +1,12 @@
+figure{
+    margin: 0;
+    display: flex;
+    width: 700px;
+    height: 500px;
+    background-color: brown;
+    color: aquamarine;
+    height: 100px;
+    /* padding: 10px 10px; */
+    justify-content: center;
+    align-items: center;
+}

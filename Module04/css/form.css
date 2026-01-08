@@ -1,0 +1,14 @@
+
+
+form .basic-info label{
+  display: block;  /* Makes labels appear above inputs */
+  /* background-color: aquamarine;
+  color: blue; */
+
+} 
+
+.basic-info{
+    display: flex;
+    
+}
+
