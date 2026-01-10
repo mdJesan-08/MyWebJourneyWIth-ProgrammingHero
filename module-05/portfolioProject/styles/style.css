@@ -24,15 +24,23 @@
     border:none;
     border-radius: 5px;
     padding: 18px 35px;
+    cursor: pointer;
 
-    
- }
+}
+.my-btn:hover{
+    background-color: white;
+    color: #FD6E0A;
+
+}
 /* main style */
 
 /* our main header containing all */
  header{
     background-color: #fff8f3;
     padding-top: 51px;
+    background: url(../images/developer.png), url(../images/header_bg.png), #fff8f3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
  }
 
 
@@ -59,10 +67,45 @@ header nav ul{
     list-style: none;
 }
 
-
-
 header nav ul li a{
     font: 20px;
     text-decoration: none;
     color: #474747;
+}
+
+/* hero section */
+
+header .hero{
+    display: flex;
+    margin: 47px 38px 0px 230px;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.hero-content{
+      max-width: 585px;
+}
+
+.hero-content h2 {
+    color: #474747;
+    font-weight:600 ;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.hero-content h1 {
+    font-weight: bold;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.hero-content p {
+  
+    font-size: 18px;
+    color: 757575;
+    margin-bottom: 30px;
+}
+.hero-image img{
+    max-width: 585px;
+    /* vertical-align: middle; */
+    /* background-color: #FD6E0A; */
 }
