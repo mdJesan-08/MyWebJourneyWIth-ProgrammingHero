@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(255, 144, 14, 0.1);;
+}
+header {
+
+    max-width: 1920px;
+    height: 1322px;
+    margin: 0 auto;
+    border: 3px solid black;
+
+}
+nav {
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 477px;
+    height: 26px;
+}
+nav ul li {
+    list-style: none;
+}

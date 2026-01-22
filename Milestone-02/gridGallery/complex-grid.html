@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 200px) 50px 50px;
+
+
+            /* justify-items: center;
+            align-items: center; */
+        }
+        .grid-item {
+            background-color: aquamarine;
+        }
+        .grid-item1 {
+            background-color: aquamarine;
+            grid-row: span 5;
+        }
+        .grid-item-11 {
+            background-color: aquamarine;
+            grid-column: span 3;
+        }
+
+        .grid-item-12 {
+            background-color: aquamarine;
+            grid-column: span 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item1">box1</div>
+        <div class="grid-item">box2</div>
+        <div class="grid-item">box3</div>
+        <div class="grid-item">box4</div>
+        <div class="grid-item">box5</div>
+        <div class="grid-item">box6</div>
+        <div class="grid-item">box7</div>
+        <div class="grid-item">box8</div>
+        <div class="grid-item">box9</div>
+        <div class="grid-item">box10</div>
+        <div class="grid-item-11">box11</div>
+        <div class="grid-item-12">box12</div>
+    </div>
+</body>
+</html>

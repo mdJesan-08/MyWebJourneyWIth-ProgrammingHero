@@ -4,16 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Web</title>
-    <link rel="stylesheet" href="css/main.css">
+    <style>
+        body {
+            display: flex;
+            background-color: antiquewhite;
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            gap:    50px;
+        }
+        .child {
+            background-color: aqua;
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            
+        }
+    </style>
 </head>
 <body>
-   <div id="parent">
-    <div id="child1"></div>
-    <div id="child2"></div>
-    <div id="child3"></div>
-    <div id="child1"></div>
-    <div id="child2"></div>
-    <div id="child3"></div>
-   </div>
+    <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+    <div class="child">4</div>
+    <div class="child">5</div>
+    <div class="child">6</div>
+   
 </body>
 </html>
