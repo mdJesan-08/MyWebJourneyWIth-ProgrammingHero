@@ -19,5 +19,4 @@ I am enrolled in the **Complete Web Development Bootcamp (AI Powered Web Develop
 
 ---
 
-## 🧱 Repository Structure
 
