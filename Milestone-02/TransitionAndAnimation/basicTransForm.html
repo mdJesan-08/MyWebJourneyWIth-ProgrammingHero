@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .box {
+            height: 300px;
+            width: 300px;
+            border: 5px solid salmon;
+            background-color: skyblue;
+
+        }
+        .inner {
+            height: 300px;
+            width: 300px;
+            border: 5px solid salmon;
+            background-color: royalblue;
+            /* transform: translate(200px) rotate(45deg); */
+            /* transform: rotate(90deg); */
+            /* transform: scale(.5); */
+            /* transition: transform 1s; */
+
+        }
+        .inner:hover {
+            transform: translate(200px) rotate(45deg) scale(1.2);
+            transition: transform 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="inner">Hello1</div>
+    </div>
+    <div class="box">
+        <div class="inner">Hello2</div>
+    </div>
+    <div class="box">
+        <div class="inner">Hello3</div>
+    </div>
+</body>
+</html>
