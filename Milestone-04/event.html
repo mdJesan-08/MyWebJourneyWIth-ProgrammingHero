@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body color = "black">
+    <h1>Hello I am here </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, sunt officiis. Enim vel, architecto odio illum doloremque praesentium, impedit repellendus qui consectetur pariatur aperiam dolore incidunt velit commodi assumenda tempore!</p>
+    <script>
+        let heading = document.querySelector("h1");
+        let p = document.querySelector("p");
+
+        // heading.addEventListener("click",function(e)
+        // {
+
+        //     // heading.style.color = "red";
+        //     e.target.style.color = "red";
+        //     console.log(heading);
+        //     console.log(e);
+            
+            
+        // })
+
+        // function changeColor(element)
+        // {
+        //     element.style.color = "red";
+        // }
+
+        // heading.addEventListener("click", function(){
+        //     // heading.style.color = "red";
+        //     changeColor(heading);
+        //     console.log(heading);
+            
+        // });
+        // heading.addEventListener("click", changeColor);
+        function changeColor(event) {
+            event.target.style.color = "red";
+            console.log(event);
+            console.log(event.target);
+        }
+            
+
+        heading.addEventListener("click", changeColor);
+        p.addEventListener("dblclick",function()
+        {
+            p.style.color = "yellow";
+        })
+    </script>
+</body>
+</html>
