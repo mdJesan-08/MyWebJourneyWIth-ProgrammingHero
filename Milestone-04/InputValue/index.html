@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+    <p id="user-name">No Name</p>
+    <input id ="name-input" type="text" placeholder="Your Name">
+    <button id="my-btn">Update</button>
+    <script>
+        // console.log("hello from js");
+        let btn = document.getElementById("my-btn");
+        // console.log(btn);
+        btn.addEventListener("click" , function (){
+            // console.log("Btn clicked");
+
+            // Now we have to get the input field 
+            let nameInput = document.getElementById("name-input");
+            // console.log(nameInput);
+            // console.log(nameInput.value);
+
+            let userP = document.getElementById("user-name");
+            // console.log(userP);
+            userP.innerText = nameInput.value;
+        })
+        
+        
+    </script>
+</body>
+</html>

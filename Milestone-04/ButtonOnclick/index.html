@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+    <button id="myButton">Click Me</button>
+    <script>
+        let myBtn = document.getElementById("myButton");
+        console.log(myBtn);
+        myBtn.addEventListener('click',changeBackground);
+
+        function changeBackground(){
+            console.log("Hello");
+            document.body.style.backgroundColor = "lightblue";
+        }
+        
+    </script>
+
+</body>
+</html>
