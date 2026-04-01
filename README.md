@@ -2,7 +2,7 @@
 
 Welcome! This repository documents my **full-stack web development journey** as I progress through the **Programming Hero – Complete Web Development Bootcamp (AI Powered Web Developer)**. 🚀
 
-> I am following a milestone-based learning approach, completing hands-on projects, lessons, and assignments step by step. :contentReference[oaicite:1]{index=1}
+> I am following a milestone-based learning approach, completing hands-on projects, lessons, and assignments step by step. 
 
 ---
 
