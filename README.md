@@ -14,7 +14,7 @@ This repo is a personal record of my learning and coding progress. It includes:
 - Web development fundamentals (HTML, CSS, JavaScript, etc.)
 - Real hands-on project implementations
 
-The purpose is to track progress, stay organized, and showcase what I’ve learned over time. :contentReference[oaicite:2]{index=2}
+The purpose is to track progress, stay organized, and showcase what I’ve learned over time.
 
 ---
 
@@ -26,7 +26,7 @@ Each milestone corresponds to a major learning phase in the bootcamp:
 - **Milestone-02** – CSS Essentials
 - **Milestone-03** – Intro to JavaScript
 - **Milestone-04** – More advanced web concepts
-… and more as I continue learning! :contentReference[oaicite:3]{index=3}
+… and more as I continue learning! 
 
 ### 📚 Technology Stack
 This journey covers:
@@ -34,7 +34,6 @@ This journey covers:
 - **CSS** – Styling and responsive design
 - **JavaScript** – Programming basics and DOM manipulation
 - **Projects & Assignments** – Real examples to build skills  
-(*Exact technologies will vary by milestone and assignment*). :contentReference[oaicite:4]{index=4}
 
 ---
 
